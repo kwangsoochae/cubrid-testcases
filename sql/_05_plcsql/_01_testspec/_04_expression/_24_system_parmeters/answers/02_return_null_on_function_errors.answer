@@ -1,0 +1,29 @@
+===================================================
+0
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+sqlcode=5
+sqlerrm=There are some mismatches between source string "abc" and format string "default" given in to_number().
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+sqlcode=5
+sqlerrm=There are some mismatches between source string "abc" and format string "default" given in to_number().
+===================================================
+0
+
+===================================================
+0
+
