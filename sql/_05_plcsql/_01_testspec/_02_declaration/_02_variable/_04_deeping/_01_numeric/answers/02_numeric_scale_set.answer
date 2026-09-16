@@ -31,8 +31,7 @@ fail, precision digit over
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  (line 2, column 21) numeric value does not fit in the target type's precision and scale
+Stored procedure execute error: Data overflow on data type "numeric".
 
 ===================================================
 0

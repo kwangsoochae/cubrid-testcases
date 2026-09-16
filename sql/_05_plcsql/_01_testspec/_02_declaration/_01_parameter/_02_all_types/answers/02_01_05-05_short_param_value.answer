@@ -4,7 +4,7 @@
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 7, column 12) data overflow on data type SHORT: -32769
+  (line 7, column 12) Data overflow on data type "smallint".
 
 i_min=-32768
 i_max=32767
@@ -20,13 +20,11 @@ i_min=-32768
 i_max=32767
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type SHORT: -32769
+Stored procedure execute error: Data overflow on data type "smallint".
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type SHORT: 32768
+Stored procedure execute error: Data overflow on data type "smallint".
 
 ===================================================
 0

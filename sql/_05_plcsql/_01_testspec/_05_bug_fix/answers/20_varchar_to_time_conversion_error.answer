@@ -160,8 +160,7 @@ Case 8: Invalid format handling (error expected)
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  (line 2, column 11) invalid TIME string: '25:61:61'
+Stored procedure execute error: Cannot coerce value of domain "character" to domain "time".
 
 ===================================================
     

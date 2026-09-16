@@ -80,7 +80,7 @@ t_TIME_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIME to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "time" to domain "datetime".
 
 ===================================================
 0
@@ -146,7 +146,7 @@ t_DOUBLE_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DOUBLE to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "double" to domain "datetime".
 
 ===================================================
 0
@@ -162,7 +162,7 @@ t_FLOAT_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert FLOAT to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "float" to domain "datetime".
 
 ===================================================
 0
@@ -178,7 +178,7 @@ t_NUMERIC(8,4)_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert NUMERIC to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "numeric" to domain "datetime".
 
 ===================================================
 0
@@ -194,7 +194,7 @@ t_BIGINT_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert BIGINT to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "bigint" to domain "datetime".
 
 ===================================================
 0
@@ -210,7 +210,7 @@ t_INT_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert INT to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "integer" to domain "datetime".
 
 ===================================================
 0
@@ -226,7 +226,7 @@ t_SHORT_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert SHORT to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "smallint" to domain "datetime".
 
 ===================================================
 0
@@ -310,7 +310,7 @@ t_SET_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "datetime".
 
 ===================================================
 0
@@ -326,7 +326,7 @@ t_MULTISET_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "datetime".
 
 ===================================================
 0
@@ -342,7 +342,7 @@ t_LIST_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to DATETIME
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "datetime".
 
 ===================================================
 0
@@ -358,8 +358,7 @@ t_ENUM_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  invalid DATETIME string: 'yellow'
+Stored procedure execute error: Cannot coerce value of domain "character" to domain "datetime".
 
 ===================================================
 0
@@ -407,8 +406,7 @@ t_JSON_DATETIME. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  invalid DATETIME string: '{"a":1}'
+Stored procedure execute error: Cannot coerce value of domain "character" to domain "datetime".
 
 ===================================================
 0

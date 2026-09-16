@@ -3,8 +3,7 @@
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  (line 2, column 19) data overflow on data type FLOAT: 3.402823466000000e+39
+Stored procedure execute error: Data overflow on data type "float".
 
 ===================================================
 0
@@ -14,8 +13,7 @@ Stored procedure execute error:
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  (line 2, column 19) data overflow on data type FLOAT: -3.402823466000000e+39
+Stored procedure execute error: Data overflow on data type "float".
 
 ===================================================
 0

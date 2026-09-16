@@ -170,7 +170,7 @@ An error occurs. ( t_time, timestamp )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIME to TIMESTAMP
+Stored procedure execute error: Cannot coerce value of domain "time" to domain "timestamp".
 
 ===================================================
 0

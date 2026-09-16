@@ -9,7 +9,7 @@ undersigned smallint
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 12, column 15) data overflow on data type SHORT: -32769
+  (line 12, column 15) Data overflow on data type "smallint".
 
 -32768 - 1
 ===================================================
@@ -21,7 +21,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 15) data overflow on data type SHORT: -32769
+  (line 6, column 15) Data overflow on data type "smallint".
 
 -32768 + (-1)
 ===================================================
@@ -33,7 +33,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 15) data overflow on data type SHORT: -65536
+  (line 6, column 15) Data overflow on data type "smallint".
 
 -32768 * 2
 ===================================================
@@ -45,7 +45,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 15) data overflow on data type SHORT: -32769
+  (line 6, column 15) Data overflow on data type "smallint".
 
 -65538 / 2
 ===================================================
@@ -62,7 +62,7 @@ undersigned int
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow in subtraction of INTEGER values
+  (line 6, column 14) Overflow occurred in subtraction context.
 
 -2147483648 - 1
 ===================================================
@@ -74,7 +74,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow in addition of INTEGER values
+  (line 6, column 14) Overflow occurred in addition context.
 
 -2147483648 + (-1)
 ===================================================
@@ -86,7 +86,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow in multiplication of INTEGER values
+  (line 6, column 14) Overflow occurred in multiplication context.
 
 -2147483648 * 2
 ===================================================
@@ -98,7 +98,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow on data type INTEGER: -2147483649
+  (line 6, column 14) Data overflow on data type "integer".
 
 -4294967298 / 2
 ===================================================
@@ -115,7 +115,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 15) data overflow in subtraction of BIGINT values
+  (line 6, column 15) Overflow occurred in subtraction context.
 
 -9223372036854775808 - 1
 ===================================================
@@ -127,7 +127,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 15) data overflow in addition of BIGINT values
+  (line 6, column 15) Overflow occurred in addition context.
 
 -9223372036854775808 + (-1)
 ===================================================
@@ -139,7 +139,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 15) data overflow in multiplication of BIGINT values
+  (line 6, column 15) Overflow occurred in multiplication context.
 
 -9223372036854775808 * 2
 ===================================================
@@ -151,7 +151,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 15) data overflow on data type BIGINT: -9223372036854775809.000000000000000000000
+  (line 6, column 15) Data overflow on data type "bigint".
 
 -18446744073709551618 / 2
 ===================================================
@@ -168,7 +168,7 @@ smallint
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow on data type SHORT: 32768
+  (line 6, column 14) Data overflow on data type "smallint".
 
 32769 - 1
 ===================================================
@@ -180,7 +180,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow on data type SHORT: 32768
+  (line 6, column 14) Data overflow on data type "smallint".
 
 32767 + 1
 ===================================================
@@ -192,7 +192,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow on data type SHORT: 65534
+  (line 6, column 14) Data overflow on data type "smallint".
 
 32767 * 2
 ===================================================
@@ -204,7 +204,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow on data type SHORT: 32769
+  (line 6, column 14) Data overflow on data type "smallint".
 
 65538 / 2
 ===================================================
@@ -221,7 +221,7 @@ int
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 13) data overflow on data type INTEGER: 2147483648
+  (line 6, column 13) Data overflow on data type "integer".
 
 2147483649 - 1
 ===================================================
@@ -233,7 +233,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 13) data overflow in addition of INTEGER values
+  (line 6, column 13) Overflow occurred in addition context.
 
 2147483647 + 1
 ===================================================
@@ -245,7 +245,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 13) data overflow in multiplication of INTEGER values
+  (line 6, column 13) Overflow occurred in multiplication context.
 
 2147483647 * 2
 ===================================================
@@ -257,7 +257,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 13) data overflow on data type INTEGER: 2147483648
+  (line 6, column 13) Data overflow on data type "integer".
 
 4294967296 / 2
 ===================================================
@@ -274,7 +274,7 @@ bigint
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow on data type BIGINT: 9223372036854775808
+  (line 6, column 14) Data overflow on data type "bigint".
 
 9223372036854775809 - 1
 ===================================================
@@ -286,7 +286,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow in addition of BIGINT values
+  (line 6, column 14) Overflow occurred in addition context.
 
 9223372036854775807 + 1
 ===================================================
@@ -298,7 +298,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow in multiplication of BIGINT values
+  (line 6, column 14) Overflow occurred in multiplication context.
 
 9223372036854775807 * 2
 ===================================================
@@ -310,7 +310,7 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 6, column 14) data overflow on data type BIGINT: 9223372036854775809.500000000000000000000
+  (line 6, column 14) Data overflow on data type "bigint".
 
 18446744073709551619 / 2
 ===================================================
