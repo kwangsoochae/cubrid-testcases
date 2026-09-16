@@ -1,0 +1,48 @@
+# Cases whose expected error sentence is the engine's, not the PL engine's.
+#
+# The two engines word the same failure differently, and one answer file serves both runs.
+# The epic settled on the engine's wording (PRD 5.3 case 3: no manual rule, judged and
+# recorded), so these answers hold what the server says. A run on the PL engine cannot match
+# them any more, and names them here so that the baseline still reads as a baseline.
+#
+# Every case listed here differs from its PL engine result in the error sentence and nothing
+# else - positions, values and rows are the same. That was the test for admitting one: the
+# error message blocks were replaced by a token and the rest of the two files compared whole.
+#
+# A line is the case file's name, without any directory. The harness is given the scenario
+# root separately and matches these against what is under it, so a path relative to the
+# testcases repo does not match and an absolute one does not either - both were measured.
+# The names are unique across the suite, which was checked when this file was written.
+#
+# Remove a line when the PL engine stops being run at all.
+02_01_03-01_sql_to_param_DATETIME.sql
+02_01_03-04_sql_to_param_DATE.sql
+02_01_03-05_sql_to_param_TIME.sql
+02_01_03-06_sql_to_param_TIMESTAMP.sql
+02_01_03-09_sql_to_param_INT.sql
+02_01_03-10_sql_to_param_SHORT.sql
+02_01_03-17_sql_to_param_NUMERIC.sql
+02_01_03-18_sql_to_param_BIGINT.sql
+02_01_05-05_bigint_param_value.sql
+02_01_05-05_char_param_value.sql
+02_01_05-05_date_param_value.sql
+02_01_05-05_float_param_value.sql
+02_01_05-05_int_param_value.sql
+02_01_05-05_short_param_value.sql
+02_01_05-05_varchar_param_value.sql
+02_01_06-03_conversion_potential_short.sql
+02_01_06-04_conversion_potential_int.sql
+02_01_06-05_conversion_potential_bigint.sql
+02_01_06-06_conversion_potential_numeric.sql
+02_01_06-09_conversion_potential_date.sql
+02_01_06-10_conversion_potential_time.sql
+02_01_06-11_conversion_potential_datetime.sql
+02_01_06-12_conversion_potential_timestamp.sql
+02_numeric_scale_set.sql
+03_10_01-04_return_val_err.sql
+03_10_03-04_variable_to_return_DATE.sql
+03_numeric_precision_set.sql
+14_detect_overflow.sql
+17_float_double_overflow.sql
+20_varchar_to_time_conversion_error.sql
+24_assignment_precision_check_missing.sql

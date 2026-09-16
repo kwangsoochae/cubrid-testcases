@@ -12,7 +12,7 @@ t_DATETIME_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DATETIME to SHORT
+Stored procedure execute error: Cannot coerce value of domain "datetime" to domain "smallint".
 
 ===================================================
 0
@@ -60,7 +60,7 @@ t_DATE_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DATE to SHORT
+Stored procedure execute error: Cannot coerce value of domain "date" to domain "smallint".
 
 ===================================================
 0
@@ -76,7 +76,7 @@ t_TIME_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIME to SHORT
+Stored procedure execute error: Cannot coerce value of domain "time" to domain "smallint".
 
 ===================================================
 0
@@ -92,7 +92,7 @@ t_TIMESTAMP_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIMESTAMP to SHORT
+Stored procedure execute error: Cannot coerce value of domain "timestamp" to domain "smallint".
 
 ===================================================
 0
@@ -212,8 +212,7 @@ t_BIGINT_SHORT. This scenario is a failure(ERROR: Data overflow on data type "sm
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type SHORT: 34589012
+Stored procedure execute error: Data overflow on data type "smallint".
 
 ===================================================
 0
@@ -229,8 +228,7 @@ t_INT_SHORT. This scenario is a success.
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type SHORT: 32768
+Stored procedure execute error: Data overflow on data type "smallint".
 
 ===================================================
 0
@@ -246,8 +244,7 @@ t_INT_SHORT. This scenario is a failure(ERROR: Data overflow on data type "small
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type SHORT: 782346
+Stored procedure execute error: Data overflow on data type "smallint".
 
 ===================================================
 0
@@ -349,7 +346,7 @@ t_SET_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to SHORT
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "smallint".
 
 ===================================================
 0
@@ -365,7 +362,7 @@ t_MULTISET_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to SHORT
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "smallint".
 
 ===================================================
 0
@@ -381,7 +378,7 @@ t_LIST_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to SHORT
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "smallint".
 
 ===================================================
 0
@@ -397,8 +394,7 @@ t_ENUM_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  invalid number string: 'yellow'
+Stored procedure execute error: Cannot coerce value of domain "character" to domain "smallint".
 
 ===================================================
 0
@@ -446,8 +442,7 @@ t_JSON_SHORT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  invalid number string: '{"a":1}'
+Stored procedure execute error: Cannot coerce value of domain "character" to domain "smallint".
 
 ===================================================
 0

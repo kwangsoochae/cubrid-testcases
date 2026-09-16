@@ -4,7 +4,7 @@
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 7, column 12) string does not fit in the target type's length
+  (line 7, column 12) Data overflow on data type "character".
 
 i_min=a    char
 i_max=abc  char
@@ -25,8 +25,7 @@ i_min=a    char
 i_max=abc  char
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  (line 2, column 20) string does not fit in the target type's length
+Stored procedure execute error: Data overflow on data type "character".
 
 ===================================================
 cast('a' as char(5))||'abc'    

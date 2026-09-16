@@ -355,7 +355,7 @@ t_CHAR_DATE. This scenario is a success.
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 4, column 8) string does not fit in the target type's length
+  (line 4, column 8) Data overflow on data type "character".
 
 ===================================================
 0

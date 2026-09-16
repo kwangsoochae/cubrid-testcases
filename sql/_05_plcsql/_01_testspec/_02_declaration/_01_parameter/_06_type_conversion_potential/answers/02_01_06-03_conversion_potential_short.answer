@@ -62,8 +62,7 @@ It is called normally. ( t_int, short )
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type SHORT: 78234
+Stored procedure execute error: Data overflow on data type "smallint".
 
 ===================================================
 0
@@ -78,8 +77,7 @@ It is called normally. ( t_bigint, short )
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type SHORT: 278234
+Stored procedure execute error: Data overflow on data type "smallint".
 
 ===================================================
 0
@@ -148,8 +146,7 @@ An error occurs. ( t_double, short )
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type SHORT: 56789.1234
+Stored procedure execute error: Data overflow on data type "smallint".
 
 ===================================================
 0
@@ -164,7 +161,7 @@ An error occurs. ( t_date, short )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DATE to SHORT
+Stored procedure execute error: Cannot coerce value of domain "date" to domain "smallint".
 
 ===================================================
 0
@@ -179,7 +176,7 @@ An error occurs. ( t_time, short )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIME to SHORT
+Stored procedure execute error: Cannot coerce value of domain "time" to domain "smallint".
 
 ===================================================
 0
@@ -194,7 +191,7 @@ An error occurs. ( t_datetime, short )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DATETIME to SHORT
+Stored procedure execute error: Cannot coerce value of domain "datetime" to domain "smallint".
 
 ===================================================
 0
@@ -209,7 +206,7 @@ An error occurs. ( t_timestamp, short )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIMESTAMP to SHORT
+Stored procedure execute error: Cannot coerce value of domain "timestamp" to domain "smallint".
 
 ===================================================
 0

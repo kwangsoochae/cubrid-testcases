@@ -14,7 +14,7 @@ count(*)
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 3, column 8) data overflow in addition of INTEGER values
+  (line 3, column 8) Overflow occurred in addition context.
 
 ===================================================
 0

@@ -35,12 +35,12 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 4, column 6) string does not fit in the target type's length
+  (line 4, column 6) Data overflow on data type "character".
 
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 4, column 6) numeric value does not fit in the target type's precision and scale
+  (line 4, column 6) Data overflow on data type "numeric".
 
 ===================================================
 0

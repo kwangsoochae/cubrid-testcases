@@ -4,7 +4,7 @@
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 7, column 12) data overflow on data type BIGINT: -9223372036854775809
+  (line 7, column 12) Data overflow on data type "bigint".
 
 i_min=-9223372036854775808
 i_max=9223372036854775807
@@ -20,13 +20,11 @@ i_min=-9223372036854775808
 i_max=9223372036854775807
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type BIGINT: -9223372036854775809
+Stored procedure execute error: Data overflow on data type "bigint".
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  data overflow on data type BIGINT: 9223372036854775808
+Stored procedure execute error: Data overflow on data type "bigint".
 
 ===================================================
 0

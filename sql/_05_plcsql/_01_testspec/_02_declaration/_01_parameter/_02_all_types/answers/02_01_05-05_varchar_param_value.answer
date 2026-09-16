@@ -3,8 +3,7 @@
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  (line 2, column 23) string does not fit in the target type's length
+Stored procedure execute error: Data overflow on data type "character varying".
 
 ===================================================
 0
@@ -18,8 +17,7 @@ i_min=avarchar
 i_max=abcvarchar
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  (line 2, column 23) string does not fit in the target type's length
+Stored procedure execute error: Data overflow on data type "character varying".
 
 ===================================================
 0
