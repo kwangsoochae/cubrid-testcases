@@ -6,7 +6,8 @@
 null     
 
 
-no exception, c=-2147483648
+sqlcode=8
+sqlerrm=Overflow occurred in division context.
 ===================================================
 0
 
