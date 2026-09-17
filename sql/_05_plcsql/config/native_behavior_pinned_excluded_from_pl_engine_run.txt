@@ -19,6 +19,16 @@
 #   double 1.0 / 1e-320              plain SQL: Attempt to divide by zero.
 #                                    PL engine: SQLCODE 8, a division overflow
 #
+# Two more were added the same way. Both are a system parameter the engine obeys and the PL
+# engine does not, so the answer moves further than a sentence: one of the two settings stops
+# raising at all.
+#
+#   allow_truncated_string=yes       plain SQL: 'abc'
+#                                    PL engine: SQLCODE 8, the string does not fit
+#   return_null_on_function_errors   plain SQL: NULL for zero date + 1 when it is yes,
+#     =yes                           Attempt to use 'zero date'. when it is no
+#                                    PL engine: SQLCODE 8 under either setting
+#
 # The case files said this was coming. Each carries a note that its answer pinned the behaviour
 # of the day rather than the wanted one, and that a native executor was expected to change it.
 #
@@ -34,3 +44,5 @@
 01_03_06-10_normal_smallint_min_divided_by_minus_one.sql
 01_03_06-11_normal_numeric_divided_by_scaled_zero.sql
 01_03_06-12_normal_double_divided_by_tiny_value.sql
+03_allow_truncated_string.sql
+04_zero_date_arithmetic.sql

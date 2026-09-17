@@ -13,7 +13,7 @@ null
 
 
 assign sqlcode=8
-assign sqlerrm=string does not fit in the target type's length
+assign sqlerrm=Data overflow on data type "character varying".
 ===================================================
     
 null     
@@ -29,8 +29,7 @@ cast sqlerrm=Semantic: Cannot coerce host var to type char varying.
 null     
 
 
-assign sqlcode=8
-assign sqlerrm=string does not fit in the target type's length
+assign: [abc]
 ===================================================
     
 null     

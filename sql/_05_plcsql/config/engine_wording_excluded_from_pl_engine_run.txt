@@ -46,3 +46,4 @@
 17_float_double_overflow.sql
 20_varchar_to_time_conversion_error.sql
 24_assignment_precision_check_missing.sql
+not_in_number.sql
