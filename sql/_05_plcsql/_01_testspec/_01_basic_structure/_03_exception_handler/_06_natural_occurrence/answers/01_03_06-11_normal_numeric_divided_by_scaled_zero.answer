@@ -6,8 +6,8 @@
 null     
 
 
-sqlcode=4
-sqlerrm=internal server error
+sqlcode=9
+sqlerrm=Attempt to divide by zero.
 ===================================================
 0
 

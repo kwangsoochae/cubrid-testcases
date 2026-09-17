@@ -6,9 +6,9 @@
 null     
 
 
-divisor=1.000000000000000e-320
-sqlcode=8
-sqlerrm=data overflow in division of two DOUBLE values
+divisor=1e-320
+sqlcode=9
+sqlerrm=Attempt to divide by zero.
 ===================================================
 0
 

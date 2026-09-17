@@ -7,7 +7,7 @@ null
 
 
 sqlcode=8
-sqlerrm=data overflow on data type SHORT: 32768
+sqlerrm=Data overflow on data type "smallint".
 ===================================================
 0
 
