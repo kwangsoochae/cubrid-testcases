@@ -9,7 +9,7 @@
 null     
 
 
-PL  zero date + 1 raised sqlcode=8 sqlerrm=attempt to use the zero DATE
+PL  zero date + 1 raised sqlcode=8 sqlerrm=Attempt to use 'zero date'.
 ===================================================
 0
 
@@ -18,7 +18,6 @@ PL  zero date + 1 raised sqlcode=8 sqlerrm=attempt to use the zero DATE
 null     
 
 
-PL  zero date + 1 raised sqlcode=8 sqlerrm=attempt to use the zero DATE
 ===================================================
 sql_side    
 null     

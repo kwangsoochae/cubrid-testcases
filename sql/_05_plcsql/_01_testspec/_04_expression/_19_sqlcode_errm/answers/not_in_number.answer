@@ -16,7 +16,7 @@ null
 
 
 error code: 8
-error msg: invalid number string: 'a'
+error msg: Cannot coerce value of domain "character" to domain "integer".
 ===================================================
 0
 

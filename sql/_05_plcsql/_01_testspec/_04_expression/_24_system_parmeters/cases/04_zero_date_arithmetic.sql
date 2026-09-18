@@ -1,8 +1,11 @@
 --+ server-message on
 
--- normal: return_null_on_function_errors turns zero-date arithmetic into NULL
--- in SQL but does not reach the same arithmetic in a PL/CSQL expression, which
--- raises value_error under either setting
+-- normal: return_null_on_function_errors turns zero-date arithmetic into NULL,
+-- and it reaches the same arithmetic in a PL/CSQL expression - the server obeys
+-- it there too, so the body prints nothing under yes (DBMS_OUTPUT drops a line
+-- concatenated from NULL) and raises under no. The PL engine computes that
+-- arithmetic in Java and raises under either setting. The sql_side row below is
+-- the control: it is what the answer is pinned against.
 
 create or replace procedure t as
     d date;
