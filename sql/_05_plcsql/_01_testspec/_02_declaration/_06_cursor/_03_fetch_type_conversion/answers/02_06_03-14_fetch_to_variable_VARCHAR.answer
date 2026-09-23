@@ -175,7 +175,7 @@ t_DOUBLE_VARCHAR. This scenario is a success.
 null     
 
 
-select_type = DOUBLE, variables_type = VARCHAR, SELECT column=>INTO variables = -1.797693134862300e+00
+select_type = DOUBLE, variables_type = VARCHAR, SELECT column=>INTO variables = -1.7976931348623
 ===================================================
 0
 
@@ -193,8 +193,8 @@ t_FLOAT_VARCHAR. This scenario is a success.
 null     
 
 
-select_type = FLOAT, variables_type = VARCHAR, SELECT column=>INTO variables = -3.402823e+00
-select_type = FLOAT, variables_type = VARCHAR, SELECT column=>INTO variables = 3.402823e+00
+select_type = FLOAT, variables_type = VARCHAR, SELECT column=>INTO variables = -3.402823
+select_type = FLOAT, variables_type = VARCHAR, SELECT column=>INTO variables = 3.402823
 ===================================================
 0
 

@@ -188,8 +188,8 @@ t_DOUBLE_TIMESTAMP('DOUBLE', 'TIMESTAMP',  cast(1234.56789 as double))    typeof
 1970-01-01 09:20:35.0     timestamp     
 
 
-variables_type = DOUBLE, return_type = TIMESTAMP, param_value(variable value) = 1.234567890000000e+03
-variables_type = DOUBLE, return_type = TIMESTAMP, param_value(variable value) = 1.234567890000000e+03
+variables_type = DOUBLE, return_type = TIMESTAMP, param_value(variable value) = 1234.56789
+variables_type = DOUBLE, return_type = TIMESTAMP, param_value(variable value) = 1234.56789
 ===================================================
 0
 
@@ -207,8 +207,8 @@ t_FLOAT_TIMESTAMP('FLOAT', 'TIMESTAMP',  cast(16777.217 as float))    typeof(t_F
 1970-01-01 13:39:37.0     timestamp     
 
 
-variables_type = FLOAT, return_type = TIMESTAMP, param_value(variable value) = 1.677722e+04
-variables_type = FLOAT, return_type = TIMESTAMP, param_value(variable value) = 1.677722e+04
+variables_type = FLOAT, return_type = TIMESTAMP, param_value(variable value) = 16777.21
+variables_type = FLOAT, return_type = TIMESTAMP, param_value(variable value) = 16777.21
 ===================================================
 0
 
