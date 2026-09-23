@@ -23,8 +23,8 @@ null
 
 
 double div typeof:double
-double div:7.812500000000000e-03
-double(1/2):0.000000000000000e+00
+double div:0.0078125
+double(1/2):0
 ===================================================
     
 number_division_behavior_test     
@@ -35,8 +35,8 @@ number_division_behavior_test
 null     
 
 
-float div:5.000000e-01
-double div:5.000000000000000e-01
+float div:0.5
+double div:0.5
 numeric(10, 4) div:0.5523724261414503133393017009847806624888
 short div:0
 int div:0
@@ -71,8 +71,8 @@ null
 
 
 double div typeof:double
-double div:7.812500000000000e-03
-double(1/2):0.000000000000000e+00
+double div:0.0078125
+double(1/2):0
 ===================================================
     
 number_division_behavior_test     
@@ -83,8 +83,8 @@ number_division_behavior_test
 null     
 
 
-float div:5.000000e-01
-double div:5.000000000000000e-01
+float div:0.5
+double div:0.5
 numeric(10, 4) div:0.5523724261414503133393017009847806624888
 short div:0
 int div:0
@@ -119,8 +119,8 @@ null
 
 
 double div typeof:double
-double div:7.812500000000000e-03
-double(1/2):0.000000000000000e+00
+double div:0.0078125
+double(1/2):0
 ===================================================
     
 number_division_behavior_test     
@@ -131,8 +131,8 @@ number_division_behavior_test
 null     
 
 
-float div:5.000000e-01
-double div:5.000000000000000e-01
+float div:0.5
+double div:0.5
 numeric(10, 4) div:0.5523724261414503133393017009847806624888
 short div:0
 int div:0

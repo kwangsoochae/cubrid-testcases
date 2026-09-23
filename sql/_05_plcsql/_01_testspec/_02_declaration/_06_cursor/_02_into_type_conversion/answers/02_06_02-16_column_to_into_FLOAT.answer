@@ -179,8 +179,8 @@ t_DOUBLE_FLOAT. This scenario is a success.
 null     
 
 
-select_type = DOUBLE, variables_type = FLOAT, SELECT column=>INTO variables = -1.797693e+00
-param_type = DOUBLE, variables_type = FLOAT, SELECT column=>INTO variables = 3.402823e+00
+select_type = DOUBLE, variables_type = FLOAT, SELECT column=>INTO variables = -1.797693
+param_type = DOUBLE, variables_type = FLOAT, SELECT column=>INTO variables = 3.402823
 ===================================================
 0
 
@@ -198,10 +198,10 @@ t_FLOAT_FLOAT. This scenario is a success.
 null     
 
 
-select_type = FLOAT, variables_type = FLOAT, SELECT column=>INTO variables = -3.402823e+00
-param_type = FLOAT, variables_type = FLOAT, SELECT column=>INTO variables = 3.402800e+00
-select_type = FLOAT, variables_type = FLOAT, SELECT column=>INTO variables = -3.402823e+00
-select_type = FLOAT, variables_type = FLOAT, SELECT column=>INTO variables = 3.402823e+00
+select_type = FLOAT, variables_type = FLOAT, SELECT column=>INTO variables = -3.402823
+param_type = FLOAT, variables_type = FLOAT, SELECT column=>INTO variables = 3.4028
+select_type = FLOAT, variables_type = FLOAT, SELECT column=>INTO variables = -3.402823
+select_type = FLOAT, variables_type = FLOAT, SELECT column=>INTO variables = 3.402823
 ===================================================
 0
 
@@ -219,10 +219,10 @@ t_NUMERIC_FLOAT. This scenario is a success.
 null     
 
 
-select_type = NUMERIC(8,4), variables_type = FLOAT, SELECT column=>INTO variables = 1.000000e-01
-param_type = NUMERIC(8,4), variables_type = FLOAT, SELECT column=>INTO variables = 9.874320e+02
-select_type = NUMERIC(8,4), variables_type = FLOAT, SELECT column=>INTO variables = 1.000000e-01
-select_type = NUMERIC(8,4), variables_type = FLOAT, SELECT column=>INTO variables = 5.432000e+03
+select_type = NUMERIC(8,4), variables_type = FLOAT, SELECT column=>INTO variables = 0.1
+param_type = NUMERIC(8,4), variables_type = FLOAT, SELECT column=>INTO variables = 987.432
+select_type = NUMERIC(8,4), variables_type = FLOAT, SELECT column=>INTO variables = 0.1
+select_type = NUMERIC(8,4), variables_type = FLOAT, SELECT column=>INTO variables = 5432
 ===================================================
 0
 
@@ -240,8 +240,8 @@ t_BIGINT_FLOAT. This scenario is a success.
 null     
 
 
-select_type = BIGINT, variables_type = FLOAT, SELECT column=>INTO variables = -9.223000e+03
-param_type = BIGINT, variables_type = FLOAT, SELECT column=>INTO variables = 9.223000e+03
+select_type = BIGINT, variables_type = FLOAT, SELECT column=>INTO variables = -9223
+param_type = BIGINT, variables_type = FLOAT, SELECT column=>INTO variables = 9223
 ===================================================
 0
 
@@ -259,10 +259,10 @@ t_INT_FLOAT. This scenario is a success.
 null     
 
 
-select_type = INT, variables_type = FLOAT, SELECT column=>INTO variables = -2.147000e+03
-param_type = INT, variables_type = FLOAT, SELECT column=>INTO variables = 2.147000e+03
-select_type = INT, variables_type = FLOAT, SELECT column=>INTO variables = -2.147400e+04
-select_type = INT, variables_type = FLOAT, SELECT column=>INTO variables = 2.147400e+04
+select_type = INT, variables_type = FLOAT, SELECT column=>INTO variables = -2147
+param_type = INT, variables_type = FLOAT, SELECT column=>INTO variables = 2147
+select_type = INT, variables_type = FLOAT, SELECT column=>INTO variables = -21474
+select_type = INT, variables_type = FLOAT, SELECT column=>INTO variables = 21474
 ===================================================
 0
 
@@ -280,10 +280,10 @@ t_SHORT_FLOAT. This scenario is a success.
 null     
 
 
-select_type = SHORT, variables_type = FLOAT, SELECT column=>INTO variables = -3.276700e+04
-param_type = SHORT, variables_type = FLOAT, SELECT column=>INTO variables = 3.276700e+04
-select_type = SHORT, variables_type = FLOAT, SELECT column=>INTO variables = -3.276700e+04
-select_type = SHORT, variables_type = FLOAT, SELECT column=>INTO variables = 3.276700e+04
+select_type = SHORT, variables_type = FLOAT, SELECT column=>INTO variables = -32767
+param_type = SHORT, variables_type = FLOAT, SELECT column=>INTO variables = 32767
+select_type = SHORT, variables_type = FLOAT, SELECT column=>INTO variables = -32767
+select_type = SHORT, variables_type = FLOAT, SELECT column=>INTO variables = 32767
 ===================================================
 0
 
@@ -339,8 +339,8 @@ t_CHAR_FLOAT. This scenario is a success.
 null     
 
 
-select_type = CHAR, variables_type = FLOAT, SELECT column=>INTO variables = 1.230000e+02
-param_type = CHAR, variables_type = FLOAT, SELECT column=>INTO variables = 5.670000e+02
+select_type = CHAR, variables_type = FLOAT, SELECT column=>INTO variables = 123
+param_type = CHAR, variables_type = FLOAT, SELECT column=>INTO variables = 567
 ===================================================
 0
 
@@ -358,8 +358,8 @@ t_VARCHAR_FLOAT. This scenario is a success.
 null     
 
 
-select_type = VARCHAR, variables_type = FLOAT, SELECT column=>INTO variables = 1.230000e+02
-param_type = VARCHAR, variables_type = FLOAT, SELECT column=>INTO variables = 5.670000e+02
+select_type = VARCHAR, variables_type = FLOAT, SELECT column=>INTO variables = 123
+param_type = VARCHAR, variables_type = FLOAT, SELECT column=>INTO variables = 567
 ===================================================
 0
 

@@ -191,8 +191,8 @@ t_DOUBLE_FLOAT('DOUBLE', 'FLOAT',  cast(1234.56789 as double))    typeof(t_DOUBL
 1234.5679     float     
 
 
-variables_type = DOUBLE, return_type = FLOAT, param_value(variable value) = 1.234567890000000e+03
-variables_type = DOUBLE, return_type = FLOAT, param_value(variable value) = 1.234567890000000e+03
+variables_type = DOUBLE, return_type = FLOAT, param_value(variable value) = 1234.56789
+variables_type = DOUBLE, return_type = FLOAT, param_value(variable value) = 1234.56789
 ===================================================
 0
 
@@ -210,8 +210,8 @@ t_FLOAT_FLOAT('FLOAT', 'FLOAT',  cast(16777.217 as float))    typeof(t_FLOAT_FLO
 16777.217     float     
 
 
-variables_type = FLOAT, return_type = FLOAT, param_value(variable value) = 1.677722e+04
-variables_type = FLOAT, return_type = FLOAT, param_value(variable value) = 1.677722e+04
+variables_type = FLOAT, return_type = FLOAT, param_value(variable value) = 16777.21
+variables_type = FLOAT, return_type = FLOAT, param_value(variable value) = 16777.21
 ===================================================
 0
 
