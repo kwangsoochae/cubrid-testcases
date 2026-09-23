@@ -1,0 +1,27 @@
+# Cases whose expected answer writes a floating-point value the way the server writes it,
+# which is not the way the PL engine writes it.
+#
+# This is a third reason, apart from engine_wording_excluded_from_pl_engine_run.txt (the
+# error sentence differs and nothing else) and native_behavior_pinned_excluded_from_pl_engine_run.txt
+# (an exception or a SQLCODE differs). Here nothing is raised on either side: the same value
+# becomes a string in two notations.
+#
+#   PL engine   double div:7.812500000000000e-03     float: 1.677722e+04
+#   server      double div:0.0078125                 float: 16777.21
+#
+# The test for admitting one is that plain SQL, outside any procedure, writes the value the
+# way the answer now does - 'x:' || cast(0.0078125 as double) gives x:0.0078125. The
+# exponential form is only what csql shows for a DOUBLE column, which is what the manual's
+# "is displayed" (datatype.rst) describes; it is not the string conversion.
+#
+# Names, not paths: the harness takes the scenario root on its own and matches below it.
+02_01_05-01_normal_in_param.sql
+02_01_05-04_normal_no_mode_param.sql
+02_01_06-02_conversion_potential_string.sql
+02_01_07-02_local_conversion_potential_string.sql
+02_01_07-07_local_conversion_potential_float.sql
+02_01_07-08_local_conversion_potential_double.sql
+02_02_04-15_param_to_variable_DOUBLE.sql
+02_02_04-16_param_to_variable_FLOAT.sql
+02_06_02-14_column_to_into_VARCHAR.sql
+02_06_02-15_column_to_into_DOUBLE.sql
