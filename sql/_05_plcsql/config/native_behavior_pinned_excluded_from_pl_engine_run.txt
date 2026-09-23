@@ -50,6 +50,16 @@
 #   FORMAT (-876543210987654321.0987..., 4)       plain SQL: -876,543,210,987,654,321.0988
 #                                                 PL engine: -876,543,210,987,654,300.0000
 #
+# Two more hand a SET, a MULTISET or a LIST to a CHAR or VARCHAR parameter. The PL engine takes
+# it as the string {a, b, c}; the engine raises, and so does plain SQL.
+#
+#   cast ({'a','b','c'} as varchar)   plain SQL: Casting {'a', 'b', 'c'} to type varchar is not supported.
+#                                     engine:    Cannot coerce value of domain "set" to domain "character varying".
+#                                     PL engine: {a, b, c}
+#
+# The floating-point lines in the same two cases differ the way the ones in
+# engine_notation_excluded_from_pl_engine_run.txt do.
+#
 # A line is the case file's name, without any directory - the same shape the other list uses.
 #
 # Remove a line when the PL engine stops being run at all.
@@ -63,3 +73,5 @@
 04_04_03_06_bfn_info_coerclibility.sql
 04_04_03_01_bfn_string_field.sql
 04_04_03_04_bfn_type_format.sql
+02_01_03-13_sql_to_param_CHAR.sql
+02_01_03-14_sql_to_param_VARCHAR.sql

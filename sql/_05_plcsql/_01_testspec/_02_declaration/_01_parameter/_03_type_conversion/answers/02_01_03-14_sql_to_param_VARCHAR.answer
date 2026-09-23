@@ -151,7 +151,7 @@ t_DOUBLE_VARCHAR. This scenario is a success.
 null     
 
 
-sql_type = DOUBLE, procedure_type = VARCHAR, current_value = 1.234567890000000e+03
+sql_type = DOUBLE, procedure_type = VARCHAR, current_value = 1234.56789
 ===================================================
 0
 
@@ -169,7 +169,7 @@ t_FLOAT_VARCHAR. This scenario is a success.
 null     
 
 
-sql_type = FLOAT, procedure_type = VARCHAR, current_value = 1.677722e+04
+sql_type = FLOAT, procedure_type = VARCHAR, current_value = 16777.21
 ===================================================
 0
 
@@ -329,11 +329,9 @@ t_SET_VARCHAR. This scenario is a failure.
 0
 
 ===================================================
-    
-null     
+Error:-889
+Stored procedure execute error: Cannot coerce value of domain "set" to domain "character varying".
 
-
-sql_type = SET, procedure_type = VARCHAR, current_value = {a, b, c}
 ===================================================
 0
 
@@ -347,11 +345,9 @@ t_MULTISET_VARCHAR. This scenario is a failure.
 0
 
 ===================================================
-    
-null     
+Error:-889
+Stored procedure execute error: Cannot coerce value of domain "multiset" to domain "character varying".
 
-
-sql_type = MULTISET, procedure_type = VARCHAR, current_value = {a, b, b, c, c, c}
 ===================================================
 0
 
@@ -365,11 +361,9 @@ t_LIST_VARCHAR. This scenario is a failure.
 0
 
 ===================================================
-    
-null     
+Error:-889
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "character varying".
 
-
-sql_type = LIST, procedure_type = VARCHAR, current_value = {c, c, c, b, b, a}
 ===================================================
 0
 
