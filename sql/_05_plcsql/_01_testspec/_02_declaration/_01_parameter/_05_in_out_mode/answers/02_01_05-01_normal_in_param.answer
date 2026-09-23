@@ -23,10 +23,10 @@ p_int 4
 p_bigint 5
 p_numeric 6
 p_decimal 7
-p_float 1.100000e+00
-p_real 2.200000e+00
-p_double 3.300000000000000e+00
-p_double_precision 4.400000000000000e+00
+p_float 1.1
+p_real 2.2
+p_double 3.3
+p_double_precision 4.4
 p_date 10/09/2002
 p_time 11:11:11 PM
 p_timestamp 11:11:11 PM 10/09/2002

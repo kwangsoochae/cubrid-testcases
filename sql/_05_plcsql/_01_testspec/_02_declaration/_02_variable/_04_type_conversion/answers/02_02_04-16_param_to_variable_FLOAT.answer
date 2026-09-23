@@ -191,8 +191,8 @@ t_DOUBLE_FLOAT. This scenario is a success.
 null     
 
 
-param_type = DOUBLE, variables_type = FLOAT, param=>variables = 1.234568e+03
-variables=>variables = 1.234568e+03
+param_type = DOUBLE, variables_type = FLOAT, param=>variables = 1234.567
+variables=>variables = 1234.567
 ===================================================
 0
 
@@ -210,8 +210,8 @@ t_FLOAT_FLOAT. This scenario is a success.
 null     
 
 
-param_type = FLOAT, variables_type = FLOAT, param=>variables = 1.677217e+03
-variables=>variables = 1.677217e+03
+param_type = FLOAT, variables_type = FLOAT, param=>variables = 1677.217
+variables=>variables = 1677.217
 ===================================================
 0
 
@@ -229,8 +229,8 @@ t_NUMERIC_FLOAT. This scenario is a success.
 null     
 
 
-param_type = NUMERIC, variables_type = FLOAT, param=>variables = 1.235000e-01
-variables=>variables = 1.235000e-01
+param_type = NUMERIC, variables_type = FLOAT, param=>variables = 0.1235
+variables=>variables = 0.1235
 ===================================================
 0
 
@@ -248,8 +248,8 @@ t_BIGINT_FLOAT. This scenario is a success.
 null     
 
 
-param_type = BIGINT, variables_type = FLOAT, param=>variables = 3.458901e+07
-variables=>variables = 3.458901e+07
+param_type = BIGINT, variables_type = FLOAT, param=>variables = 3.458901e+7
+variables=>variables = 3.458901e+7
 ===================================================
 0
 
@@ -267,8 +267,8 @@ t_INT_FLOAT. This scenario is a success.
 null     
 
 
-param_type = INT, variables_type = FLOAT, param=>variables = 7.823460e+05
-variables=>variables = 7.823460e+05
+param_type = INT, variables_type = FLOAT, param=>variables = 782346
+variables=>variables = 782346
 ===================================================
 0
 
@@ -286,8 +286,8 @@ t_SHORT_FLOAT. This scenario is a success.
 null     
 
 
-param_type = SHORT, variables_type = FLOAT, param=>variables = 8.934000e+03
-variables=>variables = 8.934000e+03
+param_type = SHORT, variables_type = FLOAT, param=>variables = 8934
+variables=>variables = 8934
 ===================================================
 0
 
@@ -355,8 +355,8 @@ t_CHAR_FLOAT. This scenario is a success.
 null     
 
 
-param_type = CHAR, variables_type = FLOAT, param=>variables = 1.230000e+02
-variables=>variables = 1.230000e+02
+param_type = CHAR, variables_type = FLOAT, param=>variables = 123
+variables=>variables = 123
 ===================================================
 0
 
@@ -374,8 +374,8 @@ t_VARCHAR_FLOAT. This scenario is a success.
 null     
 
 
-param_type = VARCHAR, variables_type = FLOAT, param=>variables = 5.670000e+02
-variables=>variables = 5.670000e+02
+param_type = VARCHAR, variables_type = FLOAT, param=>variables = 567
+variables=>variables = 567
 ===================================================
 0
 

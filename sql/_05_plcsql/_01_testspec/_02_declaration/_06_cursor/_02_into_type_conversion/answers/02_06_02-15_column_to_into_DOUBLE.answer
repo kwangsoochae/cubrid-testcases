@@ -179,8 +179,8 @@ t_DOUBLE_DOUBLE. This scenario is a success.
 null     
 
 
-select_type = DOUBLE, variables_type = DOUBLE, SELECT column=>INTO variables = -1.797693134862300e+00
-param_type = DOUBLE, variables_type = DOUBLE, SELECT column=>INTO variables = 3.402823000000000e+00
+select_type = DOUBLE, variables_type = DOUBLE, SELECT column=>INTO variables = -1.7976931348623
+param_type = DOUBLE, variables_type = DOUBLE, SELECT column=>INTO variables = 3.402823
 ===================================================
 0
 
@@ -198,10 +198,10 @@ t_FLOAT_DOUBLE. This scenario is a success.
 null     
 
 
-select_type = FLOAT, variables_type = DOUBLE, SELECT column=>INTO variables = -3.402823448181152e+00
-param_type = FLOAT, variables_type = DOUBLE, SELECT column=>INTO variables = 3.402800083160400e+00
-select_type = FLOAT, variables_type = DOUBLE, SELECT column=>INTO variables = -3.402822971343994e+00
-select_type = FLOAT, variables_type = DOUBLE, SELECT column=>INTO variables = 3.402823448181152e+00
+select_type = FLOAT, variables_type = DOUBLE, SELECT column=>INTO variables = -3.402823448181152
+param_type = FLOAT, variables_type = DOUBLE, SELECT column=>INTO variables = 3.402800083160400
+select_type = FLOAT, variables_type = DOUBLE, SELECT column=>INTO variables = -3.402822971343994
+select_type = FLOAT, variables_type = DOUBLE, SELECT column=>INTO variables = 3.402823448181152
 ===================================================
 0
 
@@ -219,10 +219,10 @@ t_NUMERIC_DOUBLE. This scenario is a success.
 null     
 
 
-select_type = NUMERIC(8,4), variables_type = DOUBLE, SELECT column=>INTO variables = 1.000000000000000e-01
-param_type = NUMERIC(8,4), variables_type = DOUBLE, SELECT column=>INTO variables = 9.874320000000000e+02
-select_type = NUMERIC(8,4), variables_type = DOUBLE, SELECT column=>INTO variables = 1.000000000000000e-01
-select_type = NUMERIC(8,4), variables_type = DOUBLE, SELECT column=>INTO variables = 5.432000000000000e+03
+select_type = NUMERIC(8,4), variables_type = DOUBLE, SELECT column=>INTO variables = 0.1
+param_type = NUMERIC(8,4), variables_type = DOUBLE, SELECT column=>INTO variables = 987.432
+select_type = NUMERIC(8,4), variables_type = DOUBLE, SELECT column=>INTO variables = 0.1
+select_type = NUMERIC(8,4), variables_type = DOUBLE, SELECT column=>INTO variables = 5432
 ===================================================
 0
 
@@ -240,8 +240,8 @@ t_BIGINT_DOUBLE. This scenario is a success.
 null     
 
 
-select_type = BIGINT, variables_type = DOUBLE, SELECT column=>INTO variables = -9.223000000000000e+03
-param_type = BIGINT, variables_type = DOUBLE, SELECT column=>INTO variables = 9.223000000000000e+03
+select_type = BIGINT, variables_type = DOUBLE, SELECT column=>INTO variables = -9223
+param_type = BIGINT, variables_type = DOUBLE, SELECT column=>INTO variables = 9223
 ===================================================
 0
 
@@ -259,10 +259,10 @@ t_INT_DOUBLE. This scenario is a success.
 null     
 
 
-select_type = INT, variables_type = DOUBLE, SELECT column=>INTO variables = -2.147000000000000e+03
-param_type = INT, variables_type = DOUBLE, SELECT column=>INTO variables = 2.147000000000000e+03
-select_type = INT, variables_type = DOUBLE, SELECT column=>INTO variables = -2.147400000000000e+04
-select_type = INT, variables_type = DOUBLE, SELECT column=>INTO variables = 2.147400000000000e+04
+select_type = INT, variables_type = DOUBLE, SELECT column=>INTO variables = -2147
+param_type = INT, variables_type = DOUBLE, SELECT column=>INTO variables = 2147
+select_type = INT, variables_type = DOUBLE, SELECT column=>INTO variables = -21474
+select_type = INT, variables_type = DOUBLE, SELECT column=>INTO variables = 21474
 ===================================================
 0
 
@@ -280,10 +280,10 @@ t_SHORT_DOUBLE. This scenario is a success.
 null     
 
 
-select_type = SHORT, variables_type = DOUBLE, SELECT column=>INTO variables = -3.276700000000000e+04
-param_type = SHORT, variables_type = DOUBLE, SELECT column=>INTO variables = 3.276700000000000e+04
-select_type = SHORT, variables_type = DOUBLE, SELECT column=>INTO variables = -3.276700000000000e+04
-select_type = SHORT, variables_type = DOUBLE, SELECT column=>INTO variables = 3.276700000000000e+04
+select_type = SHORT, variables_type = DOUBLE, SELECT column=>INTO variables = -32767
+param_type = SHORT, variables_type = DOUBLE, SELECT column=>INTO variables = 32767
+select_type = SHORT, variables_type = DOUBLE, SELECT column=>INTO variables = -32767
+select_type = SHORT, variables_type = DOUBLE, SELECT column=>INTO variables = 32767
 ===================================================
 0
 
@@ -339,8 +339,8 @@ t_CHAR_DOUBLE. This scenario is a success.
 null     
 
 
-select_type = CHAR, variables_type = DOUBLE, SELECT column=>INTO variables = 1.230000000000000e+02
-param_type = CHAR, variables_type = DOUBLE, SELECT column=>INTO variables = 5.670000000000000e+02
+select_type = CHAR, variables_type = DOUBLE, SELECT column=>INTO variables = 123
+param_type = CHAR, variables_type = DOUBLE, SELECT column=>INTO variables = 567
 ===================================================
 0
 
@@ -358,8 +358,8 @@ t_VARCHAR_DOUBLE. This scenario is a success.
 null     
 
 
-select_type = VARCHAR, variables_type = DOUBLE, SELECT column=>INTO variables = 1.230000000000000e+02
-param_type = VARCHAR, variables_type = DOUBLE, SELECT column=>INTO variables = 5.670000000000000e+02
+select_type = VARCHAR, variables_type = DOUBLE, SELECT column=>INTO variables = 123
+param_type = VARCHAR, variables_type = DOUBLE, SELECT column=>INTO variables = 567
 ===================================================
 0
 
