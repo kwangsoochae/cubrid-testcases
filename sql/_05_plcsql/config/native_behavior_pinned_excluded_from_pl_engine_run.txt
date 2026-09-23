@@ -43,6 +43,14 @@
 #                                    PL engine: 11 - it computes USER () in Java and hands over a
 #                                    string, whose coercibility is not that of USER ()
 #
+# Two more are built-in functions whose answer the PL engine gets by running the call as a
+# query of its own and then carrying the value back through Java. Plain SQL gives what the
+# engine gives.
+#
+#   FIELD ('123', 1, 12, 123.0, 1234, 12345)       plain SQL: 0      PL engine: 3
+#   FORMAT (-876543210987654321.0987..., 4)       plain SQL: -876,543,210,987,654,321.0988
+#                                                 PL engine: -876,543,210,987,654,300.0000
+#
 # A line is the case file's name, without any directory - the same shape the other list uses.
 #
 # Remove a line when the PL engine stops being run at all.
@@ -54,3 +62,5 @@
 03_allow_truncated_string.sql
 04_zero_date_arithmetic.sql
 04_04_03_06_bfn_info_coerclibility.sql
+04_04_03_01_bfn_string_field.sql
+04_04_03_04_bfn_type_format.sql

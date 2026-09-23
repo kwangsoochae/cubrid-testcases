@@ -51,3 +51,4 @@
 03_10_03-13_variable_to_return_CHAR.sql
 03_10_03-14_variable_to_return_VARCHAR.sql
 03_10_03-17_variable_to_return_NUMERIC.sql
+03_10_03-18_variable_to_return_BIGINT.sql

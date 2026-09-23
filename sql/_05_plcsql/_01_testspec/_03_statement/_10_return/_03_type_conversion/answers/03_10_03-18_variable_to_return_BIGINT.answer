@@ -191,8 +191,8 @@ t_DOUBLE_BIGINT('DOUBLE', 'BIGINT',  cast(1234.56789 as double))    typeof(t_DOU
 1235     bigint     
 
 
-variables_type = DOUBLE, return_type = BIGINT, param_value(variable value) = 1.234567890000000e+03
-variables_type = DOUBLE, return_type = BIGINT, param_value(variable value) = 1.234567890000000e+03
+variables_type = DOUBLE, return_type = BIGINT, param_value(variable value) = 1234.56789
+variables_type = DOUBLE, return_type = BIGINT, param_value(variable value) = 1234.56789
 ===================================================
 0
 
@@ -210,8 +210,8 @@ t_FLOAT_BIGINT('FLOAT', 'BIGINT',  cast(16777.217 as float))    typeof(t_FLOAT_B
 16777     bigint     
 
 
-variables_type = FLOAT, return_type = BIGINT, param_value(variable value) = 1.677722e+04
-variables_type = FLOAT, return_type = BIGINT, param_value(variable value) = 1.677722e+04
+variables_type = FLOAT, return_type = BIGINT, param_value(variable value) = 16777.21
+variables_type = FLOAT, return_type = BIGINT, param_value(variable value) = 16777.21
 ===================================================
 0
 
@@ -352,7 +352,7 @@ t_CHAR_BIGINT. This scenario is a success.
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 4, column 8) string does not fit in the target type's length
+  (line 4, column 8) Data overflow on data type "character".
 
 ===================================================
 0
