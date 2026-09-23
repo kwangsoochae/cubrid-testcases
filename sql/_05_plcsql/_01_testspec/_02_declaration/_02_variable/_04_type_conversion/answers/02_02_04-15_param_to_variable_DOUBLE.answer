@@ -187,8 +187,8 @@ t_DOUBLE_DOUBLE. This scenario is a success.
 null     
 
 
-param_type = DOUBLE, variables_type = DOUBLE, param=>variables = 1.234567890000000e+03
-variables=>variables = 1.234567890000000e+03
+param_type = DOUBLE, variables_type = DOUBLE, param=>variables = 1234.56789
+variables=>variables = 1234.56789
 ===================================================
 0
 
@@ -206,8 +206,8 @@ t_FLOAT_DOUBLE. This scenario is a success.
 null     
 
 
-param_type = FLOAT, variables_type = DOUBLE, param=>variables = 1.677217041015625e+03
-variables=>variables = 1.677217041015625e+03
+param_type = FLOAT, variables_type = DOUBLE, param=>variables = 1677.217041015625
+variables=>variables = 1677.217041015625
 ===================================================
 0
 
@@ -225,8 +225,8 @@ t_NUMERIC_DOUBLE. This scenario is a success.
 null     
 
 
-param_type = NUMERIC, variables_type = DOUBLE, param=>variables = 1.235000000000000e-01
-variables=>variables = 1.235000000000000e-01
+param_type = NUMERIC, variables_type = DOUBLE, param=>variables = 0.1235
+variables=>variables = 0.1235
 ===================================================
 0
 
@@ -244,8 +244,8 @@ t_BIGINT_DOUBLE. This scenario is a success.
 null     
 
 
-param_type = BIGINT, variables_type = DOUBLE, param=>variables = 3.458901200000000e+07
-variables=>variables = 3.458901200000000e+07
+param_type = BIGINT, variables_type = DOUBLE, param=>variables = 34589012
+variables=>variables = 34589012
 ===================================================
 0
 
@@ -263,8 +263,8 @@ t_INT_DOUBLE. This scenario is a success.
 null     
 
 
-param_type = INT, variables_type = DOUBLE, param=>variables = 7.823460000000000e+05
-variables=>variables = 7.823460000000000e+05
+param_type = INT, variables_type = DOUBLE, param=>variables = 782346
+variables=>variables = 782346
 ===================================================
 0
 
@@ -282,8 +282,8 @@ t_SHORT_DOUBLE. This scenario is a success.
 null     
 
 
-param_type = SHORT, variables_type = DOUBLE, param=>variables = 8.934000000000000e+03
-variables=>variables = 8.934000000000000e+03
+param_type = SHORT, variables_type = DOUBLE, param=>variables = 8934
+variables=>variables = 8934
 ===================================================
 0
 
@@ -349,8 +349,8 @@ t_CHAR_DOUBLE. This scenario is a success.
 null     
 
 
-param_type = CHAR, variables_type = DOUBLE, param=>variables = 1.230000000000000e+02
-variables=>variables = 1.230000000000000e+02
+param_type = CHAR, variables_type = DOUBLE, param=>variables = 123
+variables=>variables = 123
 ===================================================
 0
 
@@ -368,8 +368,8 @@ t_VARCHAR_DOUBLE. This scenario is a success.
 null     
 
 
-param_type = VARCHAR, variables_type = DOUBLE, param=>variables = 5.670000000000000e+02
-variables=>variables = 5.670000000000000e+02
+param_type = VARCHAR, variables_type = DOUBLE, param=>variables = 567
+variables=>variables = 567
 ===================================================
 0
 
