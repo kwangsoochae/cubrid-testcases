@@ -36,6 +36,13 @@
 # because the five were re-blessed together, in one measurement of one suite, and splitting the
 # record by a hair's breadth would make both lists harder to read than keeping the work whole.
 #
+# One more was re-blessed later on its own (the COERCIBILITY PR) and is written here after the
+# fact. Nothing is raised on either side; the value differs, and plain SQL gives the engine's.
+#
+#   COERCIBILITY (USER ())           plain SQL: 7
+#                                    PL engine: 11 - it computes USER () in Java and hands over a
+#                                    string, whose coercibility is not that of USER ()
+#
 # A line is the case file's name, without any directory - the same shape the other list uses.
 #
 # Remove a line when the PL engine stops being run at all.
@@ -46,3 +53,4 @@
 01_03_06-12_normal_double_divided_by_tiny_value.sql
 03_allow_truncated_string.sql
 04_zero_date_arithmetic.sql
+04_04_03_06_bfn_info_coerclibility.sql
