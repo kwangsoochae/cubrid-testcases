@@ -12,7 +12,7 @@ null
 
 
 boolean to float 
-param value = 0.000000e+00
+param value = 0
 ===================================================
 0
 
@@ -30,7 +30,7 @@ null
 
 
 string to float 
-param value = 1.230000e+02
+param value = 123
 ===================================================
 0
 
@@ -48,7 +48,7 @@ null
 
 
 short to float 
-param value = 8.934000e+03
+param value = 8934
 ===================================================
 0
 
@@ -66,7 +66,7 @@ null
 
 
 int to float 
-param value = 7.823400e+04
+param value = 78234
 ===================================================
 0
 
@@ -84,7 +84,7 @@ null
 
 
 bigint to float 
-param value = 2.782340e+05
+param value = 278234
 ===================================================
 0
 
@@ -102,7 +102,7 @@ null
 
 
 numeric(8,3) to float 
-param value = 5.678123e+03
+param value = 5678.123
 ===================================================
 0
 
@@ -120,7 +120,7 @@ null
 
 
 float to float 
-param value = 3.677345e+03
+param value = 3677.345
 ===================================================
 0
 
@@ -138,7 +138,7 @@ null
 
 
 double to float 
-param value = 5.678913e+04
+param value = 56789.12
 ===================================================
 0
 
@@ -152,7 +152,7 @@ An error occurs. ( t_date, float )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DATE to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "date" to domain "float".
 
 ===================================================
 0
@@ -167,7 +167,7 @@ An error occurs. ( t_time, float )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIME to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "time" to domain "float".
 
 ===================================================
 0
@@ -182,7 +182,7 @@ An error occurs. ( t_datetime, float )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DATETIME to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "datetime" to domain "float".
 
 ===================================================
 0
@@ -197,7 +197,7 @@ An error occurs. ( t_timestamp, float )
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIMESTAMP to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "timestamp" to domain "float".
 
 ===================================================
 0

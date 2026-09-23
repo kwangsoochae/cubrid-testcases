@@ -184,11 +184,11 @@ t_DOUBLE_CHAR. This scenario is a success.
 
 ===================================================
 t_DOUBLE_CHAR('DOUBLE', 'CHAR',  cast(1234.56789 as double))    typeof(t_DOUBLE_CHAR('DOUBLE', 'CHAR',  cast(1234.56789 as double)))    
-1.234567890000000e+03     character varying (1073741823)     
+1234.56789     character varying (1073741823)     
 
 
-variables_type = DOUBLE, return_type = CHAR, param_value(variable value) = 1.234567890000000e+03
-variables_type = DOUBLE, return_type = CHAR, param_value(variable value) = 1.234567890000000e+03
+variables_type = DOUBLE, return_type = CHAR, param_value(variable value) = 1234.56789
+variables_type = DOUBLE, return_type = CHAR, param_value(variable value) = 1234.56789
 ===================================================
 0
 
@@ -203,11 +203,11 @@ t_FLOAT_CHAR. This scenario is a success.
 
 ===================================================
 t_FLOAT_CHAR('FLOAT', 'CHAR',  cast(16777.217 as float))    typeof(t_FLOAT_CHAR('FLOAT', 'CHAR',  cast(16777.217 as float)))    
-1.677722e+04     character varying (1073741823)     
+16777.21     character varying (1073741823)     
 
 
-variables_type = FLOAT, return_type = CHAR, param_value(variable value) = 1.677722e+04
-variables_type = FLOAT, return_type = CHAR, param_value(variable value) = 1.677722e+04
+variables_type = FLOAT, return_type = CHAR, param_value(variable value) = 16777.21
+variables_type = FLOAT, return_type = CHAR, param_value(variable value) = 16777.21
 ===================================================
 0
 
@@ -348,7 +348,7 @@ t_CHAR_CHAR. This scenario is a success.
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 4, column 8) string does not fit in the target type's length
+  (line 4, column 8) Data overflow on data type "character".
 
 ===================================================
 0
