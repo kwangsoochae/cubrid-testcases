@@ -1,0 +1,18 @@
+# Cases whose expected answer names where an error was raised, (line, column), where the PL
+# engine names no place for it.
+#
+# Every case here raises its error from a declaration's default, and the PL engine receives
+# that error from the server's own conversion, which knows no place in the body - so its
+# answer has the sentence alone. A body run by the server reports the default's position
+# instead, as it does for any other statement, and the answer follows it (2026-09-24 decision:
+# an error a default raises is reported at the default, and the PL engine's missing place is
+# not copied).
+#
+# The answers were taken from a strict round, so each is what the body gives when it is run
+# by the server and nothing else. Only the (line, column) line differs from before.
+02_01_05-05_char_param_value.sql
+02_01_05-05_varchar_param_value.sql
+02_numeric_scale_set.sql
+03_numeric_precision_set.sql
+17_float_double_overflow.sql
+20_varchar_to_time_conversion_error.sql

@@ -3,17 +3,8 @@
 
 ===================================================
 Error:-889
-Stored procedure execute error: Data overflow on data type "float".
-
-===================================================
-0
-
-===================================================
-0
-
-===================================================
-Error:-889
-Stored procedure execute error: Data overflow on data type "float".
+Stored procedure execute error: 
+  (line 2, column 19) Data overflow on data type "float".
 
 ===================================================
 0
@@ -24,7 +15,7 @@ Stored procedure execute error: Data overflow on data type "float".
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 1, column 1) data overflow on data type DOUBLE
+  (line 2, column 19) Data overflow on data type "float".
 
 ===================================================
 0
@@ -35,7 +26,18 @@ Stored procedure execute error:
 ===================================================
 Error:-889
 Stored procedure execute error: 
-  (line 2, column 21) data overflow on data type DOUBLE
+  (line 2, column 21) Data overflow on data type "double".
+
+===================================================
+0
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 2, column 21) Data overflow on data type "double".
 
 ===================================================
 0
