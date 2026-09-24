@@ -41,7 +41,9 @@
 02_numeric_scale_set.sql
 03_10_01-04_return_val_err.sql
 03_10_03-04_variable_to_return_DATE.sql
+03_allow_truncated_string.sql
 03_numeric_precision_set.sql
+04_04_03_04_bfn_type_cast2.sql
 14_detect_overflow.sql
 17_float_double_overflow.sql
 20_varchar_to_time_conversion_error.sql
