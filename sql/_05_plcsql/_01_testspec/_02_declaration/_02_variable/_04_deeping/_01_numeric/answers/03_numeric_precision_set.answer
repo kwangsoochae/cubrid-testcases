@@ -25,7 +25,8 @@ fail, precision digit over
 
 ===================================================
 Error:-889
-Stored procedure execute error: Data overflow on data type "numeric".
+Stored procedure execute error: 
+  (line 2, column 19) Data overflow on data type "numeric".
 
 ===================================================
 0

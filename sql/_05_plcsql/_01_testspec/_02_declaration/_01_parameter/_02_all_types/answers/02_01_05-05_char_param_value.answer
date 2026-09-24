@@ -25,7 +25,8 @@ i_min=a    char
 i_max=abc  char
 ===================================================
 Error:-889
-Stored procedure execute error: Data overflow on data type "character".
+Stored procedure execute error: 
+  (line 2, column 20) Data overflow on data type "character".
 
 ===================================================
 cast('a' as char(5))||'abc'    

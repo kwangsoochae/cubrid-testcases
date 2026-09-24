@@ -3,7 +3,8 @@
 
 ===================================================
 Error:-889
-Stored procedure execute error: Data overflow on data type "character varying".
+Stored procedure execute error: 
+  (line 2, column 23) Data overflow on data type "character varying".
 
 ===================================================
 0
@@ -17,7 +18,8 @@ i_min=avarchar
 i_max=abcvarchar
 ===================================================
 Error:-889
-Stored procedure execute error: Data overflow on data type "character varying".
+Stored procedure execute error: 
+  (line 2, column 23) Data overflow on data type "character varying".
 
 ===================================================
 0
