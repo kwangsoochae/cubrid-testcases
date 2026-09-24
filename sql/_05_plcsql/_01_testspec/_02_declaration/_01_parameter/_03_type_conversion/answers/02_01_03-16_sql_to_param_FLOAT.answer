@@ -12,7 +12,7 @@ t_DATETIME_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DATETIME to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "datetime" to domain "float".
 
 ===================================================
 0
@@ -60,7 +60,7 @@ t_DATE_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert DATE to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "date" to domain "float".
 
 ===================================================
 0
@@ -76,7 +76,7 @@ t_TIME_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIME to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "time" to domain "float".
 
 ===================================================
 0
@@ -92,7 +92,7 @@ t_TIMESTAMP_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert TIMESTAMP to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "timestamp" to domain "float".
 
 ===================================================
 0
@@ -143,7 +143,7 @@ t_DOUBLE_FLOAT. This scenario is a success.
 null     
 
 
-sql_type = DOUBLE, procedure_type = FLOAT, current_value = 1.234568e+03
+sql_type = DOUBLE, procedure_type = FLOAT, current_value = 1234.567
 ===================================================
 0
 
@@ -161,7 +161,7 @@ t_FLOAT_FLOAT. This scenario is a success.
 null     
 
 
-sql_type = FLOAT, procedure_type = FLOAT, current_value = 1.677722e+04
+sql_type = FLOAT, procedure_type = FLOAT, current_value = 16777.21
 ===================================================
 0
 
@@ -179,13 +179,13 @@ t_NUMERIC_FLOAT. This scenario is a success.
 null     
 
 
-sql_type = NUMERIC(4,4), procedure_type = FLOAT, current_value = 1.235000e-01
+sql_type = NUMERIC(4,4), procedure_type = FLOAT, current_value = 0.1235
 ===================================================
     
 null     
 
 
-sql_type = NUMERIC(8,4), procedure_type = FLOAT, current_value = 1.235000e-01
+sql_type = NUMERIC(8,4), procedure_type = FLOAT, current_value = 0.1235
 ===================================================
 0
 
@@ -203,7 +203,7 @@ t_BIGINT_FLOAT. This scenario is a success.
 null     
 
 
-sql_type = BIGINT, procedure_type = FLOAT, current_value = 3.458901e+07
+sql_type = BIGINT, procedure_type = FLOAT, current_value = 3.458901e+7
 ===================================================
 0
 
@@ -221,7 +221,7 @@ t_INT_FLOAT. This scenario is a success.
 null     
 
 
-sql_type = INT, procedure_type = FLOAT, current_value = 7.823460e+05
+sql_type = INT, procedure_type = FLOAT, current_value = 782346
 ===================================================
 0
 
@@ -239,7 +239,7 @@ t_SHORT_FLOAT. This scenario is a success.
 null     
 
 
-sql_type = SHORT, procedure_type = FLOAT, current_value = 8.934000e+03
+sql_type = SHORT, procedure_type = FLOAT, current_value = 8934
 ===================================================
 0
 
@@ -289,7 +289,7 @@ t_CHAR_FLOAT. This scenario is a success.
 null     
 
 
-sql_type = CHAR, procedure_type = FLOAT, current_value = 1.230000e+02
+sql_type = CHAR, procedure_type = FLOAT, current_value = 123
 ===================================================
 0
 
@@ -307,7 +307,7 @@ t_VARCHAR_FLOAT. This scenario is a success.
 null     
 
 
-sql_type = VARCHAR, procedure_type = FLOAT, current_value = 5.670000e+02
+sql_type = VARCHAR, procedure_type = FLOAT, current_value = 567
 ===================================================
 0
 
@@ -322,7 +322,7 @@ t_SET_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "float".
 
 ===================================================
 0
@@ -338,7 +338,7 @@ t_MULTISET_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "float".
 
 ===================================================
 0
@@ -354,7 +354,7 @@ t_LIST_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: cannot convert COLLECTION to FLOAT
+Stored procedure execute error: Cannot coerce value of domain "sequence" to domain "float".
 
 ===================================================
 0
@@ -370,8 +370,7 @@ t_ENUM_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  invalid FLOAT string: 'yellow'
+Stored procedure execute error: Cannot coerce value of domain "character" to domain "float".
 
 ===================================================
 0
@@ -419,8 +418,7 @@ t_JSON_FLOAT. This scenario is a failure.
 
 ===================================================
 Error:-889
-Stored procedure execute error: 
-  invalid FLOAT string: '{"a":1}'
+Stored procedure execute error: Cannot coerce value of domain "character" to domain "float".
 
 ===================================================
 0

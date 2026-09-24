@@ -1,0 +1,53 @@
+# Cases whose expected answer writes a floating-point value the way the server writes it,
+# which is not the way the PL engine writes it.
+#
+# This is a third reason, apart from engine_wording_excluded_from_pl_engine_run.txt (the
+# error sentence differs and nothing else) and native_behavior_pinned_excluded_from_pl_engine_run.txt
+# (an exception or a SQLCODE differs). Here nothing is raised on either side: the same value
+# becomes a string in two notations.
+#
+#   PL engine   double div:7.812500000000000e-03     float: 1.677722e+04
+#   server      double div:0.0078125                 float: 16777.21
+#
+# The test for admitting one is that plain SQL, outside any procedure, writes the value the
+# way the answer now does - 'x:' || cast(0.0078125 as double) gives x:0.0078125. The
+# exponential form is only what csql shows for a DOUBLE column, which is what the manual's
+# "is displayed" (datatype.rst) describes; it is not the string conversion.
+#
+# Names, not paths: the harness takes the scenario root on its own and matches below it.
+02_01_05-01_normal_in_param.sql
+02_01_05-04_normal_no_mode_param.sql
+02_01_06-02_conversion_potential_string.sql
+02_01_07-02_local_conversion_potential_string.sql
+02_01_07-07_local_conversion_potential_float.sql
+02_01_07-08_local_conversion_potential_double.sql
+02_02_04-15_param_to_variable_DOUBLE.sql
+02_02_04-16_param_to_variable_FLOAT.sql
+02_06_02-14_column_to_into_VARCHAR.sql
+02_06_02-15_column_to_into_DOUBLE.sql
+02_06_02-16_column_to_into_FLOAT.sql
+02_06_03-14_fetch_to_variable_VARCHAR.sql
+02_06_03-15_fetch_to_variable_DOUBLE.sql
+02_06_03-16_fetch_to_variable_FLOAT.sql
+03_10_03-06_variable_to_return_TIMESTAMP.sql
+03_10_03-15_variable_to_return_DOUBLE.sql
+03_10_03-16_variable_to_return_FLOAT.sql
+04_16_02-01_normal_basic_char.sql
+04_16_02-01_normal_basic_varchar.sql
+01_compat_numeric_division_scale.sql
+
+# The cases below also differ in the error sentence, the way the ones in
+# engine_wording_excluded_from_pl_engine_run.txt do, at the same place in the body -
+#   PL engine   cannot convert DATE to FLOAT
+#   server      Cannot coerce value of domain "date" to domain "float".
+# so they belong to neither list alone.
+02_01_03-15_sql_to_param_DOUBLE.sql
+02_01_03-16_sql_to_param_FLOAT.sql
+02_01_06-07_conversion_potential_float.sql
+02_01_06-08_conversion_potential_double.sql
+03_10_03-05_variable_to_return_TIME.sql
+03_10_03-09_variable_to_return_INT.sql
+03_10_03-10_variable_to_return_SHORT.sql
+03_10_03-13_variable_to_return_CHAR.sql
+03_10_03-14_variable_to_return_VARCHAR.sql
+03_10_03-17_variable_to_return_NUMERIC.sql
