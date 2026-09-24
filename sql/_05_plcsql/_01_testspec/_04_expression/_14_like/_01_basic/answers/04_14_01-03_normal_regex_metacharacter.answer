@@ -6,9 +6,9 @@
 null     
 
 
-PL  'abc' like 'a.c'  : match
+PL  'abc' like 'a.c'  : no match
 SQL 'abc' like 'a.c'  : no match
-PL  newline like 'a%b': no match
+PL  newline like 'a%b': match
 SQL newline like 'a%b': match
 ===================================================
 0
