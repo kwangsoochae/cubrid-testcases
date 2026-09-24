@@ -1,12 +1,12 @@
-# Cases whose expected answer names where an error was raised, (line, column), where the PL
-# engine names no place for it.
+# Cases whose expected answer names where an error was raised, (line, column), at the
+# expression that raised it - where the PL engine names no place for it, or column 1.
 #
-# Every case here raises its error from a declaration's default, and the PL engine receives
-# that error from the server's own conversion, which knows no place in the body - so its
-# answer has the sentence alone. A body run by the server reports the default's position
-# instead, as it does for any other statement, and the answer follows it (2026-09-24 decision:
-# an error a default raises is reported at the default, and the PL engine's missing place is
-# not copied).
+# The PL engine knows no place for an error raised in code it generated without one: a
+# declaration's default whose error comes from the server's own conversion (the answer had
+# the sentence alone), or the check of a FOR loop's step (column 1). A body run by the server
+# reports the expression's position instead, as it does for any other statement, and the
+# answer follows it (2026-09-24 decision: an error is reported at the expression, and the PL
+# engine's missing or column-1 place is not copied).
 #
 # The answers were taken from a strict round, so each is what the body gives when it is run
 # by the server and nothing else. Only the (line, column) line differs from before.
@@ -16,3 +16,4 @@
 03_numeric_precision_set.sql
 17_float_double_overflow.sql
 20_varchar_to_time_conversion_error.sql
+03_13_03-05_normal_invalid_step.sql
