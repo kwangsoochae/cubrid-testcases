@@ -1,0 +1,16 @@
+# Cases whose expected answer is what an operator gives in SQL, where the PL engine gives
+# something else for the same operator.
+#
+# The manual has the operators of a procedure body behave the way SQL's do
+# (pl/plcsql_overview.rst, "Operators and Functions"), and where the PL engine departs from
+# that the answer follows SQL (2026-09-24 decision). The test for admitting one is that plain
+# SQL, outside any procedure, gives what the answer now shows:
+#
+#   LIKE     'abc' like 'a.c' is false and '(x' like '(' is false - the PL engine builds a
+#            Java regular expression from the pattern without escaping . or (, so it matches
+#            the first and fails on the second
+#
+# The answers were taken from a strict round, so each is what the body gives when it is run
+# by the server and nothing else.
+04_14_01-03_normal_regex_metacharacter.sql
+04_14_01-04_normal_regex_syntax_error.sql
