@@ -7,7 +7,7 @@ null
 
 
 SQL '(x' like '(' : no match
-PL  '(x' like '(' raised sqlcode=4 sqlerrm=internal server error
+PL  '(x' like '(' : no match
 ===================================================
 0
 

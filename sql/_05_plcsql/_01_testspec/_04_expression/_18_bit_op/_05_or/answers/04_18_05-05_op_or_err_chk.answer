@@ -17,7 +17,8 @@ null
 
 
 'a' | NULL
-VALUE_ERROR ouccers
+NULL | 'a'
+run ok without exception
 ===================================================
 0
 
