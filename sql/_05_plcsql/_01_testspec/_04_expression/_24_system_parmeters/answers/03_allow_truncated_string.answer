@@ -20,7 +20,7 @@ null
 
 
 cast sqlcode=5
-cast sqlerrm=Semantic: Cannot coerce host var to type char varying. 
+cast sqlerrm=Data overflow on data type "character varying".
 ===================================================
 0
 
